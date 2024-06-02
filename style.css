@@ -1,0 +1,984 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(46, 44, 44);
+    overflow-x: hidden; /* Allow vertical scrolling */
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+.con1 {
+    height: 680px;
+    width: 100%;
+    
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Overlay layer */
+        url(netflix1.png); /* Background image layer */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Optional, to center the image */
+    overflow: hidden;
+}
+
+.con2 {
+    height: 14%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    /* justify-content:; */
+    align-items: center;
+    gap: 70%;
+    
+}
+.head {
+    height: 80%;
+    width: 18%;
+    margin-left: 1.5%;
+    background-image: url(wasiq.png);
+    background-size: cover;
+    font-size: 2rem;
+    
+}
+.btn {
+    width: 7%;
+    height: 35%;
+    border-radius: 6%;
+    margin-right: 2%;
+    
+}
+.btn1 {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(238, 51, 51);
+    color: black;
+    border-radius: 15%;
+    color: white;
+}
+.btn1:hover {
+    opacity: 90%;
+    cursor: pointer;
+}
+/* content */
+
+.con3 {
+    height: 86%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bot{ 
+    
+    text-align: center;
+    color: white;
+}
+.h1 {
+    font-size: 3.5rem;
+    gap: 5%;
+}
+.p1,.p2 {
+    font-size: 1.3rem;
+    margin-top: 1.5%;
+}
+
+.hun1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.in {
+    height: 40px;
+    margin-top: 1%;
+    width: 35%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.btn2 {
+    height: 50px;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 1%;
+    background-color: rgb(238, 51, 51);
+    border-radius: 10%;
+    font-size: 1.1rem;
+    color: white;
+}
+.btn2:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.ten1 {
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 0.7%;
+    overflow: hidden;
+    
+}
+.ten2 {
+    height: 350px;
+    width: 40%;
+    color: white;
+    margin-top: 20%;
+}
+.h21{
+    font-size: 3.2rem;
+
+}
+.pin {
+    font-size: 1.4rem;
+    margin-top: 1.7%;
+
+}
+.ten3 {
+    height: 350px;
+    width: 40%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.ten4 {
+    height: 250px;
+    background-image: url(wasiq2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.pen1 {
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 0.7%;
+    overflow: hidden;
+    
+}
+.pen2 {
+    height: 350px;
+    width: 40%;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.pen3 {
+    height: 350px;
+    width: 40%;
+    color: white;
+    margin-top: 10%;
+}
+.pen20 {
+    height: 250px;
+    background-image: url(wasiq3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.pee {
+    font-size: 3.2rem;
+
+}
+.pee1 {
+    font-size: 1.4rem;
+    margin-top: 1.7%;
+}
+
+.con4 {
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7%;
+    overflow: hidden;
+    
+}
+.con5 {
+    height: 350px;
+    width: 80%;
+    color: white;
+    margin-top: 10%;
+}
+.was {
+    font-size: 3.2rem;
+}
+.was1 {
+    font-size: 1.6rem;
+    margin-top: 1.7%;
+}
+
+.sim1 {
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 0.7%;
+    overflow: hidden;
+    
+}
+
+.sim2{
+    height: 250px;
+    background-image: url(wasiq11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+}
+.sim3 {
+    height: 350px;
+    width: 40%;
+    color: white;
+    margin-top: 10%;
+}
+.mis {
+    font-size: 3.2rem;
+
+
+}
+
+.p50 {
+    font-size: 1.6rem;
+    margin-top: 1.7%;
+
+}
+
+.bu1 {
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    margin-top: 0.7%;
+    overflow: hidden;
+}
+.biu1 {
+    height: 13%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.biu11 {
+    font-size: 3.3rem;
+}
+.bu2 {
+    height: 70px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(58, 56, 56);
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+.bu2:hover {
+    background-color: rgb(73, 75, 77);
+    cursor: pointer;
+
+}
+.bu3, .bu4, .bu5, .bu6, .bu7{
+    height: 70px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(58, 56, 56);
+    margin-top: 1.4%;
+    display: flex;
+    align-items: center;
+}
+.bu3:hover, .bu4:hover, .bu5:hover, .bu6:hover, .bu7:hover {
+    background-color: rgb(73, 75, 77);
+    cursor: pointer;
+}
+.bu8 {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    margin-top: 1.4%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.mou1 {
+    margin-left: 1.2%;
+    font-size: 1.6rem;
+    color: white;
+
+}
+.mou2 {
+    font-size: 1.4rem;
+    color: white;
+
+}
+.bu9 {
+    height: 10%;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    overflow: hidden;
+}
+/* footer */
+
+.cu1 {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin-top: 0.7%;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+}
+.a{
+    color: white;
+    text-decoration: underline;
+    margin-left: 4%;
+    font-size: 1.2rem;
+
+}
+.a:hover {
+    cursor: pointer;
+}
+.cu2 {
+    height:180px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.cu3 {
+    height: 95%;
+    width: 25%;
+}
+.b {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bu {
+    margin-top: 10%;
+    margin-left: 16%;
+}
+
+.cu4 {
+    height: 95%;
+    width: 25%;
+    
+}
+.cu5 {
+    height: 95%;
+    width: 25%;
+}
+.cu6 {
+    height: 95%;
+    width: 25%;
+}
+.oi1 {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+select {
+    background-color: transparent;
+    height: 20%;
+    width: 15%;
+    border: 2px solid gray;
+    color: white;
+    border-radius: 6%;
+    margin-top: 3%;
+    margin-left: 3.77%;
+}
+
+.oi3 {
+    margin-top: 2%;
+    margin-left: 3.90%;
+    color: white;
+}
+
+
+@media screen and (max-width: 2500px) {
+    .head {
+        height: 150px;
+    }
+    .ten2 {
+        margin-top: 200px;
+    }
+    .con5 {
+        margin-top: 150px;
+    }
+    .bu1 {
+        height: 1000px;
+    }
+    .btn2 {
+        margin-top: 22px;
+        font-size: 1.90rem;
+        height: 60px;
+    }
+    .in {
+        margin-top: 24px;
+        font-size: 1.90rem;
+        height: 50px;
+    }
+    .cu2 {
+        height: 380px;
+    }
+    .bu {
+        font-size: 1.4rem;
+    }
+    .a {
+        font-size: 1.4rem;
+    }
+    select {
+        font-size: 1.4rem;
+    }
+    .oi3 {
+        font-size: 1.4rem;
+    }
+    .mou2 {
+        font-size: 1.4rem;
+    }
+    .mou1 {
+        font-size: 1.4rem;
+    }
+    .biu11 {
+        font-size: 3.90rem;
+    }
+    .con3 {
+        gap: 30px;
+    }
+    .p1 {
+        margin-bottom: 40px;
+    }
+    .h1 {
+        margin-bottom: 40px;
+    }
+    
+}
+@media screen and (max-width: 1478px) {
+    .head {
+        height: 100px;
+    }
+    .ten2 {
+        margin-top: 200px;
+    }
+    .con5 {
+        margin-top: 150px;
+    }
+    .bu1 {
+        height: 900px;
+    }
+    .btn2 {
+        margin-top: 22px;
+        font-size: 1.90rem;
+        height: 60px;
+    }
+    .in {
+        margin-top: 24px;
+        font-size: 1.90rem;
+        height: 50px;
+    }
+    .cu2 {
+        height: 280px;
+    }
+    .bu {
+        font-size: 1.3rem;
+    }
+    .a {
+        font-size: 1.3rem;
+    }
+    select {
+        font-size: 1.3rem;
+    }
+    .oi3 {
+        font-size: 1.3rem;
+    }
+    .mou2 {
+        font-size: 1.3rem;
+    }
+    .mou1 {
+        font-size: 1.3rem;
+    }
+    .biu11 {
+        font-size: 3rem;
+    }
+    .con3 {
+        gap: 30px;
+    }
+    .p1 {
+        margin-bottom: 40px;
+    }
+    .h1 {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1043px) {
+    .head {
+        height: 80px;
+    }
+    .ten2 {
+        margin-top: 180px;
+    }
+    .con5 {
+        margin-top: 150px;
+    }
+    .bu1 {
+        height: 900px;
+        width: ;
+    }
+    .btn2 {
+        margin-top: 22px;
+        font-size: 1.7rem;
+        height: 60px;
+    }
+    .in {
+        margin-top: 24px;
+        font-size: 1.7rem;
+        height: 50px;
+    }
+    .cu2 {
+        height: 230px;
+    }
+    .bu {
+        font-size: 1.2rem;
+    }
+    .a {
+        font-size: 1.2rem;
+    }
+    select {
+        font-size: 1.2rem;
+    }
+    .oi3 {
+        font-size: 1.2rem;
+    }
+    .mou2 {
+        font-size: 1.2rem;
+    }
+    .mou1 {
+        font-size: 1.2rem;
+    }
+    .biu11 {
+        font-size: 3rem;
+    }
+    .btn {
+        width: 9%;
+    }
+    .bu8 {
+        text-align: center;
+    }
+    .p1 {
+        margin-bottom: 40px;
+    }
+    .h1 {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:946px) {
+    .head {
+        height: 80px;
+        width: 28%;   
+    }
+    .ten2 {
+        margin-top: 180px;
+    }
+    .con5 {
+        margin-top: 150px;
+    }
+    .bu1 {
+        height: 900px;
+        
+    }
+    .btn2 {
+        margin-top: 22px;
+        font-size: 1.4rem;
+        height: 60px;
+    }
+    .in {
+        margin-top: 24px;
+        font-size: 1.4rem;
+        height: 50px;
+    }
+    .cu2 {
+        height: 650px;
+        flex-wrap: wrap;
+    }
+    .cu3 , .cu4 , .cu5 , .cu6 {
+        width: 50%;
+        height: 300px;
+        text-align: center;
+    }
+    .bu {
+        font-size: 1.3rem;
+        margin-left: 5%;
+    }
+    .a {
+        font-size: 1.3rem;
+    }
+    select {
+        font-size: 1.3rem;
+    }
+    .oi3 {
+        font-size: 1.3rem;
+        margin-top: 3.5%;
+    }
+    .mou2 {
+        font-size: 1.3rem;
+    }
+    .mou1 {
+        font-size: 1.3rem;
+    }
+    .biu11 {
+        font-size: 3rem;
+    }
+    .btn {
+        width: 17%;
+    }
+    .btn1 {
+        font-size: 1.2rem;
+    }
+    .h1 {
+        margin-bottom: 50px;
+    }
+    .bu8 {
+        text-align: center;
+    }
+    .con2 {
+        gap: 70%;
+    }
+    .oi1 {
+        text-align: center;
+    }
+    .cu1 {
+        justify-content: center;
+    }
+    .p1 {
+        margin-bottom: 40px;
+    }
+
+}
+@media screen and (max-width:860px){
+
+    .head {
+        height: 80px;
+        width: 290px;  
+        margin-bottom: 10px; 
+    }
+    .ten2 {
+        margin-top: 120px;
+    }
+    .con5 {
+        margin-top: 150px;
+    }
+    .bu1 {
+        height: 900px;
+        
+    }
+    .btn2 {
+        margin-top: 22px;
+        font-size: 1.3rem;
+        height: 60px;
+        width: 140px;
+    }
+    .in {
+        margin-top: 24px;
+        font-size: 1.3rem;
+        height: 50px;
+    }
+    .cu2 {
+        height: 650px;
+        flex-wrap: wrap;
+    }
+    .cu3 , .cu4 , .cu5 , .cu6 {
+        width: 50%;
+        height: 300px;
+        text-align: center;
+    }
+    .bu {
+        font-size: 1.15rem;
+        margin-left: 5%;
+    }
+    .a {
+        font-size: 1.15rem;
+    }
+    select {
+        font-size: 1.15rem;
+        width: 100px;
+    }
+    .oi3 {
+        font-size: 1.15rem;
+        margin-top: 3.5%;
+    }
+    .mou2 {
+        font-size: 1.15rem;
+    }
+    .mou1 {
+        font-size: 1.15rem;
+    }
+    .biu11 {
+        font-size: 3rem;
+    }
+    .btn {
+        width: 26%;
+    }
+    .btn1 {
+        font-size: 1rem;
+    }
+    .bu8 {
+        text-align: center;
+    }
+    .con2 {
+        gap: 50%;
+    }
+    .oi1 {
+        text-align: center;
+    }
+    .cu1 {
+        justify-content: center;
+        align-items: center;
+    }
+    .pee {
+        font-size: 2.3rem;
+    }
+
+    .was {
+        font-size: 2.3rem;
+
+    }
+    .was1 {
+        font-size: 1.3rem;
+    }
+    .mis {
+        font-size:2.3rem;
+    }
+    .pin {
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+    }
+    .h21 {
+        font-size: 2.3rem;
+    }
+    .biu11 {
+        font-size: 2.3rem;
+    }
+    .p50 {
+        font-size: 1.3rem;
+    }
+    .pee1 {
+        font-size: 1.3rem;
+    }
+    .h1 {
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+    .pen3 {
+        margin-top: 70px;
+    }
+    .sim3 {
+        margin-top: 70px;
+    }
+    .p1 {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 495px) {
+
+    .head {
+        height: 80px;
+        width: 400px;  
+        margin-bottom: 25px; 
+    }
+    .hun1 {
+        flex-direction: column;
+    }
+    .ten2 {
+        width: 80%;
+        text-align: center;
+
+    }
+    .ten3 {
+        width: 90%;
+    }
+    .con5 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .bu1 {
+        height: 900px;
+        
+    }
+    .btn2 {
+        margin-top: 15px;
+        font-size: 1.1rem;
+        height: 60px;
+        width: 35%;
+    }
+    .in {
+        margin-top: 24px;
+        font-size: 1.1rem;
+        height: 50px;
+        width: 80%;
+    }
+    .bu8 {
+        height: 100px;
+    }
+    .bu9 {
+        flex-direction: column;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+    .cu2 {
+        height: 1250px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .cu3 , .cu4 , .cu5 , .cu6 {
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    .bu {
+        font-size: 1.1rem;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .a {
+        font-size: 1.1rem;
+    }
+    select {
+        font-size: 1.1rem;
+        width: 100px;
+        margin-top: 50px;
+    }
+    .oi3 {
+        font-size: 1.1rem;
+        margin-top: 3.5%;
+    }
+    .mou2 {
+        font-size: 1.1rem;
+        width: 90%;
+    }
+    .mou1 {
+        font-size: 1.1rem;
+    }
+    .biu11 {
+        font-size: 3rem;
+    }
+    .btn {
+        width: 56%;
+        height: 50px;
+        margin-right: 25px;
+    }
+    .btn1 {
+        font-size: 0.8rem;
+    }
+    .bu8 {
+        text-align: center;
+    }
+    .con2 {
+        gap: 20%;
+    }
+    .oi1 {
+        text-align: center;
+    }
+    .cu1 {
+        justify-content: center;
+        align-items: center;
+    }
+    .pee {
+        font-size: 2.3rem;
+    }
+
+    .was {
+        font-size: 2.3rem;
+
+    }
+    .was1 {
+        font-size: 1.3rem;
+    }
+    .mis {
+        font-size:2.3rem;
+    }
+    .pin {
+        margin-bottom: 30px;
+        font-size: 1.1rem;
+    }
+    .h21 {
+        font-size: 2.3rem;
+    }
+    .biu11 {
+        font-size: 1.7rem;
+    }
+    .biu1 {
+        text-align: center;
+        align-items: center;
+    }
+    .p50 {
+        font-size: 1.1rem;
+    }
+    .pee1 {
+        font-size: 1.1rem;
+    }
+    .h1 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+    .pen3 {
+        width: 80%;
+        text-align: center;
+    }
+    .sim3 {
+        width: 80%;
+        text-align: center;
+    }
+    .sim2 {
+        width: 90%;
+        margin-top: 30px;
+    }
+    .pen2 {
+        width: 90%;
+    }
+    .ten1,.sim1,.pen1 {
+        flex-direction: column;
+        height: 700px;
+    }
+    .p1 {
+        margin-bottom: 20px;
+    }
+    .bu2,.bu3,.bu4,.bu5,.bu6,.bu7 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .pen2 {
+        margin-top: 20px;
+    }
+    .ten4 {
+        margin-bottom: 25px;
+    }
+
+}
